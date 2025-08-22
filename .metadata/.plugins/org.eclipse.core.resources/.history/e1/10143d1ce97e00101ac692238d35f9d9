@@ -10,12 +10,10 @@ public class Main {
 		Aluno aluno2 = new Aluno("Maria", "maria@amaojoao" ,1235);
 		
 		Professor professor = new Professor("Rui", "rui@goat", 3333);
-		Professor professor2 = new Professor("Dora", "dora@goat", 3434);
 		
-		System.out.println(aluno1.entrarNaSala());
-		System.out.println(aluno2.entrarNaSala());
-		System.out.println(professor.entrarNaSala());
-		System.out.println(professor2.entrarNaSala("Dra"));
+		aluno1.entrarNaSala();
+		aluno2.entrarNaSala();
+		professor.entrarNaSala();
 		
 	}
 

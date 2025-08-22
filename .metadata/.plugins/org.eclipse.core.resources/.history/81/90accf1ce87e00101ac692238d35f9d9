@@ -10,7 +10,7 @@ public class Aluno extends Pessoa {
 
 	public Aluno(String nome, String email, int RA) {
 		super(nome, email);
-		this.RA = RA;
+		RA = RA;
 	}
 
 	

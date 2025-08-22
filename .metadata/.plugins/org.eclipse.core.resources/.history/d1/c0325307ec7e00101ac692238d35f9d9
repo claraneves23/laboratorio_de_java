@@ -2,8 +2,8 @@ package domain;
 
 public class Pessoa {
 	
-	protected String nome;
-	protected String email;
+	private String nome;
+	private String email;
 	
 	public String getName() {
 		return nome;
