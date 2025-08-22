@@ -1,6 +1,6 @@
 package domain;
 
-abstract class Pessoa {
+public class Pessoa {
 	
 	protected String nome;
 	protected String email;
@@ -19,7 +19,7 @@ abstract class Pessoa {
 	}
 	
 	public String entrarNaSala() {
-		return String.format(" %s com o email %s entrou na sala", nome, email);
+		return String.format("O aluno %s com o email %s entrou na sala", nome, email);
 	}
 
 }
